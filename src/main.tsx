@@ -28,7 +28,7 @@ function main() {
 });
   function createModel() {
     return {
-      show(e) {
+      show(e:any) {
         const {rect} = e
 
             logseq.setMainUIInlineStyle({
