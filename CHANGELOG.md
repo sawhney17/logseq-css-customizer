@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sawhney17/logseq-css-customizer/compare/v1.0.0...v1.1.0) (2022-04-03)
+
+
+### Features
+
+* add more customizability options ([c0c1bba](https://github.com/sawhney17/logseq-css-customizer/commit/c0c1bba69844383200e1b6384a4522b1ac675ed1))
+
 # 1.0.0 (2022-04-03)
 
 
