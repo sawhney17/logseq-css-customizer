@@ -21,10 +21,22 @@ function main() {
     document.getElementById("app")
   );
 
+  logseq.setMainUIInlineStyle({
+    position: 'fixed',
+    zIndex: 999,
+    transform: 'translateX(-50%)',
+});
   function createModel() {
     return {
-      show() {
-        logseq.showMainUI();
+      show(e) {
+        const {rect} = e
+
+            logseq.setMainUIInlineStyle({
+                top: `${rect.top + 25}px`,
+                left: `${rect.right - 17}px`,
+            })
+            
+        logseq.toggleMainUI();
       },
     };
   }
@@ -51,7 +63,7 @@ function main() {
   logseq.App.registerUIItem("toolbar", {
     key: openIconName,
     template: `
-      <div data-on-click="show" class="${openIconName}">⚙️</div>
+      <div data-on-click="show" data-rect class="${openIconName}">⚙️</div>
     `,
   });
 }
