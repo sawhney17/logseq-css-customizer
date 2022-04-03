@@ -63,7 +63,7 @@ function main() {
   logseq.App.registerUIItem("toolbar", {
     key: openIconName,
     template: `
-      <div data-on-click="show" data-rect class="${openIconName}">⚙️</div>
+      <div data-on-click="show" data-rect class="${openIconName} ti ti-letter-case"></div>
     `,
   });
 }
