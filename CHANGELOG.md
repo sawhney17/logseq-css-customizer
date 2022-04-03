@@ -1,3 +1,16 @@
+# 1.0.0 (2022-04-03)
+
+
+### Bug Fixes
+
+* **ci:** broken release ([a1b822c](https://github.com/sawhney17/logseq-css-customizer/commit/a1b822c5691ec2dd796736eb3441e8477d5dbbdb))
+* **package:** fix package.json ([9a49f84](https://github.com/sawhney17/logseq-css-customizer/commit/9a49f848bbbf2a1c55670a1841aeaf0d0d4eb2f1))
+
+
+### Features
+
+* **app:** initial commit ([3e05295](https://github.com/sawhney17/logseq-css-customizer/commit/3e05295b48bfd68ec708aeece62f109f5a0ff912))
+
 ## [2.1.1](https://github.com/pengx17/logseq-css-customizer/compare/v2.1.0...v2.1.1) (2022-03-24)
 
 
